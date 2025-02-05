@@ -1,0 +1,5 @@
+pillow==11.1.0
+fastapi==0.115.8
+torch==2.6.0
+transformers==4.48.2
+uvicorn==0.34.0
