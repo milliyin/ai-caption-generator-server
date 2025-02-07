@@ -1,8 +1,6 @@
 @echo off
 echo Starting Caption Generation Server...
 
-cd /d "%~dp0"
-
 if not exist gen-env (
     echo Creating Python virtual environment...
     python -m venv gen-env
